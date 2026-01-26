@@ -1,9 +1,39 @@
-public class Motorcycle {
+/**
 
+ * Project: Lab 1
+ * Purpose Details: Motorcycle
+ * Course: IST 242
+ * Author: Conner Davis
+ * Date Developed: 1-20-2026
+ * Last Date Changed: 1-26-2026
+ * Revision:
+
+ */
+
+public class Motorcycle {
+    /**
+     * The color of the bike
+     */
     private String color;
+
+    /**
+     * How many gears the bike has
+     */
     private String gear;
+
+    /**
+     * The speed of the bike
+     */
     private Integer speed;
+
+    /**
+     * The frame material of the bike
+     */
     private Frame frame;
+
+    /**
+     * The manufacturer of the bike
+     */
     private Style style;
 
     public Motorcycle(String color, String gear, Integer speed, Material frameMaterial, Manufacturer manufacturerStyle) {
@@ -48,8 +78,6 @@ public class Motorcycle {
     public void wheelie() {
         System.out.println("The motorcycle did a wheelie!");
     }
-
-
     }
 
 
