@@ -9,6 +9,7 @@ public class Motorcycle {
     public Motorcycle(String color, String gear, Integer speed, Material frameMaterial, Manufacturer manufacturerStyle) {
         this.color = color;
         this.gear = gear;
+        this.speed = speed;
         this.frame = new Frame(frameMaterial);
         this.style = new Style(manufacturerStyle);
     }
@@ -39,10 +40,13 @@ public class Motorcycle {
     }
 
     public void start() {
-        System.out.println("Motorcycle engine started");
+        System.out.println("Motorcycle engine started!");
     }
     public void stop() {
-        System.out.println("Motorcycle engine stopped");
+        System.out.println("Motorcycle engine stopped.");
+    }
+    public void wheelie() {
+        System.out.println("The motorcycle did a wheelie!");
     }
 
 
